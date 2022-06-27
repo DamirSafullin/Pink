@@ -1,14 +1,32 @@
 .main-nav-wrapper {
   height: 110px;
   background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .main-nav {
   margin: 0 auto;
   max-width: @desktop-width;
+  width: 100%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .nav__list {
+  padding-inline-start: 0;
   display: flex;
+  max-width: 620px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav__item {
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
 }
