@@ -79,18 +79,18 @@
   </header>
 
   <main class="content-container">
-    <h1 class="main-heading">
+    <h1 class="main-heading visually-hidden">
       Pink
     </h1>
-    <h2 class="second-heading">
+    <h2 class="block-heading">
       Устали от серости мегаполиса?
-      Нам есть, что вам
+      Нам есть, что вам <br>
       предложить!
     </h2>
     <div class="features">
       <ul class="features__list">
         <li class="features__item">
-          <img src="img/desktop/phone-1.png" alt="phone-screen" width="186" height="382">
+          <img src="img/desktop/phone-1.png" alt="phone-screen" width="300" height="490">
           <h3>
             Поднимает
             настроение
@@ -100,7 +100,7 @@
           </p>
         </li>
         <li class="features__item">
-          <img src="img/desktop/phone-2.png" alt="phone-screen" width="186" height="382">
+          <img src="img/desktop/phone-2.png" alt="phone-screen" width="300" height="490">
           <h3>
             Меняет мир
             вокруг
@@ -112,7 +112,7 @@
           </p>
         </li>
         <li class="features__item">
-          <img src="img/desktop/phone-3.png" alt="phone-screen" width="186" height="382">
+          <img src="img/desktop/phone-3.png" alt="phone-screen" width="300" height="490">
           <h3>
             Заводит
             новых друзей
@@ -125,23 +125,29 @@
       </ul>
     </div>
     <div class="time">
-      <div class="time__image">
-        <img src="img/desktop/time.svg" alt="24 hours">
-      </div>
-      <div class="time__desc">
-        <h3 class="time__heading">
-          Эффект на 24 часа!
-        </h3>
-        <p class="time__text">
-          Британские ученые провели исследования и доказали,
-          что положительный эффект от использования приложения длится целые сутки!
-        </p>
-        <a href="#" class="time__link">
-          Узнать больше об исследовании
-        </a>
+      <div class="time-container">
+        <div class="time__image">
+          <img src="img/desktop/time.svg" alt="24 hours">
+        </div>
+        <div class="time__desc">
+          <h3 class="time__heading">
+            Эффект на 24 часа!
+          </h3>
+          <p class="time__text">
+            Британские ученые провели исследования и доказали,
+            что положительный эффект от использования приложения длится целые сутки!
+          </p>
+          <a href="#" class="time__link">
+            Узнать больше об исследовании
+          </a>
+        </div>
       </div>
     </div>
     <div class="reviews">
+      <div class="reviews__arrows">
+        <button class="arrow-button-1"><img src="img/special/arrow.svg" alt="" width="22" height="41"></button>
+        <button class="arrow-button-2"><img src="img/special/arrow.svg" alt="" width="22" height="41"></button>
+      </div>
       <div class="reviews__quote-image-container">
         <img src="img/desktop/quotes.svg" alt="quote" class="reviews__quote-image">
       </div>
@@ -159,71 +165,41 @@
         </p>
       </div>
     </div>
-    <div class="price-table-container">
-      <table class="price-table">
-        <tr class="price-table__row">
-          <th class="price-table_empty"></th>
-          <th>база</th>
-          <th>стандарт</th>
-          <th>анлим</th>
-        </tr>
-        <tr>
-          <td>Розовый фильтр</td>
-          <td>
-            <img src="img/special/yes.svg" alt="" class="status__succes" width="31" height="21">
-          </td>
-          <td>
-            <img src="img/special/yes.svg" alt="" class="status__succes" width="31" height="21">
-          </td>
-          <td>
-            <img src="img/special/yes.svg" alt="" class="status__succes" width="31" height="21">
-          </td>
-        </tr>
-        <tr>
-          <td>Смайлики</td>
-          <td>
-            <img src="img/special/no.svg" alt="" class="status__denied" width="27" height="27">
-          </td>
-          <td>
-            <img src="img/special/yes.svg" alt="" class="status__succes" width="31" height="21">
-          </td>
-          <td>
-            <img src="img/special/yes.svg" alt="" class="status__succes" width="31" height="21">
-          </td>
-        </tr>
-        <tr>
-          <td>Комментарии</td>
-          <td>
-            <img src="img/special/no.svg" alt="" class="status__denied" width="27" height="27">
-          </td>
-          <td>
-            <img src="img/special/no.svg" alt="" class="status__denied" width="27" height="27">
-          </td>
-          <td>
-            <img src="img/special/yes.svg" alt="" class="status__succes" width="31" height="21">
-          </td>
-        </tr>
-      </table>
+    <div class="price-table-background">
+      <div class="price-table">
+        <img src="img/desktop/table.png" alt="" width="940" height="279">
+      </div>
     </div>
     <div class="contacts">
       <h2 class="contacts__heading">
         Остались вопросы?
         Свяжитесь с нами!
       </h2>
-      <dl class="contacts__list">
-        <dt class="contacts__item-head">Звоните:</dt>
-        <dd class="contacts__item-desc">
-          <a href="#">+7 (812) 555-66-66</a>
-        </dd>
-        <dt class="contacts__item-head">Приезжайте в гости:</dt>
-        <dd class="contacts__item-desc">
-          <a href="#">ул. Большая Конюшенная, 19/8</a>
-        </dd>
-        <dt class="contacts__item-head">Пишите:</dt>
-        <dd class="contacts__item-desc">
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <span>
+            Звоните
+          </span>
+          <a href="#">
+            +7 (812) 555-66-66
+          </a>
+        </li>
+        <li class="contacts__item">
+          <span>
+            Приезжайте в гости:
+          </span>
+          <a href="#">
+            ул. Большая
+            Конюшенная, 19/8
+          </a>
+        </li>
+        <li class="contacts__item">
+          <span>
+            Пишите:
+          </span>
           <a href="#">mail@htmlacademy.ru</a>
-        </dd>
-      </dl>
+        </li>
+      </ul>
     </div>
     <div class="map">
       <div style="position:relative;overflow:hidden;"><a

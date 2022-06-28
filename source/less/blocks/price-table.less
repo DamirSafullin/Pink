@@ -1,0 +1,24 @@
+.price-table {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  height: 534px;
+  display: flex;
+  align-items: center;
+}
+
+.price-table-background {
+  position: relative;
+  overflow: hidden;
+  margin-top: 41px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-color: #f2f2f2;
+    width: 200%;
+    height: 200%;
+    transform: rotate(-3deg);
+  }
+}

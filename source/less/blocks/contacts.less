@@ -1,0 +1,44 @@
+.contacts {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+
+  .contacts__heading {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 50px;
+    max-width: 462px;
+    margin: 0 auto;
+  }
+
+  .contacts__list {
+    display: flex;
+    max-width: 863px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 61px;
+
+    .contacts__item {
+      padding-inline-start: 0;
+
+      span {
+        font-weight: 700;
+        font-size: 18px;
+      }
+
+      a {
+        display: block;
+        font-size: 24px;
+        color: @red;
+        max-width: 241px;
+      }
+    }
+
+    @media (max-width: @tablet-width) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
