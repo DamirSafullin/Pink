@@ -1,0 +1,15 @@
+@keyframes menu {
+  from {
+    padding: 0;
+  }
+
+  to {
+    padding: 25px;
+  }
+}
+
+.menu-animation {
+  @media (max-width: @tablet-width) {
+    animation: menu 0.2s;
+  }
+}
