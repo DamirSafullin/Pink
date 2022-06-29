@@ -1,0 +1,41 @@
+[33mcommit 9c314ebb3f5c0a504075c7c11c9898c45478cd21[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: damur <damirsaf123@gmail.com>
+Date:   Wed Jun 29 13:39:59 2022 +0700
+
+    added animation for menu
+
+[33mcommit 624e661f396259211f0e627c236fb7e71343a301[m
+Author: damur <damirsaf123@gmail.com>
+Date:   Wed Jun 29 11:49:41 2022 +0700
+
+    added adaprive elements
+
+[33mcommit 007b08cd5a5886720bffc471c8c0754568edaa81[m
+Author: damur <damirsaf123@gmail.com>
+Date:   Tue Jun 28 15:02:38 2022 +0700
+
+    add styles for index page
+
+[33mcommit f7ccaac158e3b2401768d3cc22eb0943b4ddb848[m
+Author: damur <damirsaf123@gmail.com>
+Date:   Mon Jun 27 13:47:37 2022 +0700
+
+    layout main header
+
+[33mcommit a27b0f641bee0ce263f180975bf729dc84a59ffd[m
+Author: damur <damirsaf123@gmail.com>
+Date:   Thu Jun 23 16:15:49 2022 +0700
+
+    added graphic and less
+
+[33mcommit d7317e3e2b46fc0b14caa4d0b1093bed6ae8229c[m
+Author: damur <damirsaf123@gmail.com>
+Date:   Wed Jun 22 14:13:08 2022 +0700
+
+    added less
+
+[33mcommit 62c7c61b8a08b9af3e2b682515c3179698113c2e[m
+Author: damur <damirsaf123@gmail.com>
+Date:   Wed Jun 22 14:05:04 2022 +0700
+
+    first commit
