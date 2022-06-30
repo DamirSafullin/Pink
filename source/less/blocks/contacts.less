@@ -10,6 +10,10 @@
     font-size: 50px;
     max-width: 462px;
     margin: 0 auto;
+
+    @media (max-width: @tablet-width) {
+      font-size: 40px;
+    }
   }
 
   .contacts__list {
@@ -21,6 +25,7 @@
 
     .contacts__item {
       padding-inline-start: 0;
+      margin-bottom: 55px;
 
       span {
         font-weight: 700;
@@ -37,7 +42,7 @@
 
     @media (max-width: @tablet-width) {
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-evenly;
     }
   }
 }

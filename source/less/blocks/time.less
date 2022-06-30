@@ -1,6 +1,11 @@
 .time {
   background-color: #f2f2f2;
   height: 429px;
+
+  @media (max-width: @tablet-width) {
+    background-color: white;
+    display: flex;
+  }
 }
 
 .time-container {
@@ -9,6 +14,19 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
+  @media (max-width: @tablet-width) {
+    max-width: 620px;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+.time__image {
+  @media (max-width: @tablet-width) {
+    width: 238px;
+    height: 276px;
+  }
 }
 
 .time__desc {
@@ -16,14 +34,27 @@
     max-width: 298px;
     font-size: 30px;
     line-height: 30px;
+
+    @media (max-width: @tablet-width) {
+      max-width: 168px;
+    }
   }
 
   .time__text {
     max-width: 534px;
     font-size: 18px;
+
+    @media (max-width: @tablet-width) {
+      font-size: 14px;
+      max-width: 310px;
+    }
   }
 
   .time__link {
     color: @red;
+
+    @media (max-width: @tablet-width) {
+      font-size: 14px;
+    }
   }
 }
